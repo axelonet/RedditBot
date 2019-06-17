@@ -1,4 +1,4 @@
-# Template for hosting python scripts and applications on Heroku
+## Template for hosting python scripts and applications on Heroku
 
 This is a small example of running your script with
 [Heroku](https://www.heroku.com/). You can run almost any python application
@@ -79,18 +79,7 @@ with any dependencies.
      ```bash
     heroku ps:scale worker=0
     ```
+## Python Bot
+The script.py from the above provided template has been changed to reply to particular phrase on the r/pewdiepiesubmissions sub-reddit.
 
-### Prerequisites
-
-* [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
-* [git](https://git-scm.com/downloads)
-
-## Authors
-
-* @michaelkrukov - https://michaelkrukov.ru/
-
-## Acknowledgments
-
-* [Official guide to deploy app](https://devcenter.heroku.com/articles/getting-started-with-python#introduction)
-* [Official guide about worker](https://devcenter.heroku.com/articles/background-jobs-queueing)
-* [Guided "Simple twitter-bot with Python, Tweepy and Heroku"](http://briancaffey.github.io/2016/04/05/twitter-bot-tutorial.html)
+The passwords and App-credientials are present in praw.py which is skipped from upload because of security issues.
