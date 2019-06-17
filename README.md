@@ -82,4 +82,4 @@ with any dependencies.
 ## Python Bot
 The script.py from the above provided template has been changed to reply to particular phrase on the r/pewdiepiesubmissions sub-reddit.
 
-The passwords and App-credientials are present in praw.py which is skipped from upload because of security issues.
+The passwords and App-credientials are present in praw.ini which is skipped from upload because of security issues.
